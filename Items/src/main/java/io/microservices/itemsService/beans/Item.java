@@ -12,17 +12,17 @@ public class Item {
 	@GeneratedValue
 	private int id;
 	private String label;
-	private String discription;
+	private String description;
 	
 	public Item() {
 		super();
 	}
 	
-	public Item(int id, String label, String discription) {
+	public Item(int id, String label, String description) {
 		super();
 		this.id = id;
 		this.label = label;
-		this.discription = discription;
+		this.description = description;
 	}
 
 	public int getId() {
@@ -41,12 +41,12 @@ public class Item {
 		this.label = label;
 	}
 
-	public String getDiscription() {
-		return discription;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setDiscription(String discription) {
-		this.discription = discription;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	
 	
